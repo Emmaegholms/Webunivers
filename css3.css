@@ -1,0 +1,205 @@
+.dropbtn {
+    background-color: #817161;
+    color: rgb(0, 0, 0);
+    padding: 10px 16px;
+    font-size: 19px;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: hidden;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #817161;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:rgb(44, 115, 44);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #f1f1f154;}
+  
+  .dropdown:hover .dropbtn {color: rgb(44, 115, 44);}
+  
+  .billede1 {
+    width: 1452px; /* bredde på billedet */
+    height: 150px; /* højde på billedet */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .topnav {
+      background-color: #817161;
+      overflow: hidden;
+      height: 60px;
+      display: flex; 
+      justify-content: center; /* Centrerer vandret */
+      align-items: center; /* Centrerer lodret */
+    }
+   
+    /*Styling af navigationsbar*/
+    .topnav a {
+      color: #000000;
+      text-align: center;
+      padding: 10px 16px;
+      text-decoration: none;
+      font-size: 19px;
+      margin: 45px;  
+    }
+  
+    .topnav {
+      position: sticky; 
+      top: 0;
+      overflow: visible; 
+      z-index: 1000 ;/*Sticky gør at menupunkterne følger med når du scroller */
+      justify-content: center;
+    }
+  
+  /* Styling af søgebox inde navigationsboxen */
+  .topnav input[type=text] {
+    position: relative;
+    float: right;
+    padding: 8px;
+    border: rgb(44, 115, 44);
+    margin-top: 1px;
+    margin-right: 16px;
+    font-size: 17px;
+    color: rgb(29, 116, 29);
+  }
+    
+    
+    /* Hover farveændring */
+    .topnav a:hover {
+      background-color: #988976;
+      color: rgb(77, 112, 64);
+    }
+ 
+    .topnav a.active {
+      background-color: #eeebcb;
+      color: rgb(255, 255, 255);
+    }
+    .container {
+      display: flex; /* Gør containeren til en flex-container */
+      justify-content: center; 
+      align-items: center; 
+    
+    }
+
+    .billede2 {
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+
+    h1 {
+        text-decoration:double;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .div4 {
+        width: 350px;
+        height: 500px;
+        padding: 17px;
+        border: none;
+        margin: 0;
+        font-size: 18px;
+      }
+
+    .div5 {
+       width: 980px;
+       height: 500px;
+       padding: 17px;
+       border: none;
+       margin-left: 430px;
+       margin-top: -520px;
+       font-size: 18px;
+      }
+
+      .appbillede{
+        width: 980px;
+        height: 500px;
+        margin-top: -440px;
+        margin-left: 447px;
+      }
+      
+
+      .div6 {
+        width: 980px;
+        height: 500px;
+        padding: 17px;
+        border: none;
+        margin-left: 430px;
+        margin-top: -20px;
+        font-size: 18px; }
+
+    .trendsales {
+        width: 430px;
+        height: 355px;
+        margin-top: -300px;
+        position: relative;
+    }
+
+    .vl {
+        border-left: 8px solid rgb(45, 106, 45);
+        height: 980px;
+        transform: rotate(90deg);
+        margin-top: -328px;
+        margin-left: 410px;
+    
+      }
+
+      .div7 {
+        width: 970px;
+        height: 500px;
+        padding: 17px;
+        border: none;
+        margin-left: 430px;
+        margin-top: -1030px;
+        font-size: 18px; }
+      
+
+        /* Footer */
+.vl1 {
+    border-left: 8px solid rgb(129, 107, 80);
+    height: 2910px;
+    transform: rotate(90deg);
+  
+    position: absolute; /*  absolut - selvjustere hvor den placeres */
+    margin-top: -1450px;
+  
+  }
+  
+  .ootd {
+    height: 300px;
+    width: 700px;
+    justify-content: center;
+    margin-left: 200px;
+  }
+  
+  .footertext {
+  position: absolute;
+    text-align: end;
+    margin-left: 1000px;
+    margin-top: -300px;
+  }
+
+

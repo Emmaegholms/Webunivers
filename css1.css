@@ -1,0 +1,198 @@
+.dropbtn {
+  background-color: #817161;
+  color: rgb(0, 0, 0);
+  padding: 10px 16px;
+  font-size: 19px;
+  border: none;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: hidden;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #817161;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:rgb(44, 115, 44);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #f1f1f154;}
+
+.dropdown:hover .dropbtn {color: rgb(44, 115, 44);}
+
+.billede1 {
+  width: 1452px; /* bredde på billedet */
+  height: 150px; /* højde på billedet */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.topnav {
+    background-color: #817161;
+    overflow: hidden;
+    height: 60px;
+    display: flex; 
+    justify-content: center; /* Centrerer vandret */
+    align-items: center; /* Centrerer lodret */
+  }
+ 
+  
+  /*Styling af navigationsbar*/
+  .topnav a {
+    color: #000000;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 45px;  
+  }
+
+  .topnav {
+    position: sticky; 
+    top: 0;
+    overflow: visible; 
+    z-index: 1000 ;/*Sticky gør at menupunkterne følger med når du scroller */
+    justify-content: center;
+  }
+
+/* Styling af søgebox inde navigationsboxen */
+.topnav input[type=text] {
+  position: relative;
+  float: right;
+  padding: 8px;
+  border: rgb(44, 115, 44);
+  margin-top: 1px;
+  margin-right: 16px;
+  font-size: 17px;
+  color: rgb(29, 116, 29);
+}
+  
+  
+  /* Hover farveændring */
+  .topnav a:hover {
+    background-color: #988976;
+    color: rgb(77, 112, 64);
+  }
+  
+
+  .topnav a.active {
+    background-color: #eeebcb;
+    color: rgb(255, 255, 255);
+  }
+
+  .billede2 {
+    margin-top: -17px;
+  }
+
+  .vl {
+    border-left: 8px solid rgb(45, 106, 45);
+    height: 900px;
+    transform: rotate(90deg);
+    margin-top: 545px;
+    margin-left: -553px;
+
+  }
+
+  .div1 {
+        width: 400px;
+        height: 500px;
+        padding: 17px;
+        border: none;
+        font-size: 18px;
+        margin-top: -1470px;
+  }
+
+  .div2 {
+    width: 400px;
+    height: 500px;
+    padding: 17px;
+    border: none;
+    font-size: 18px;
+    margin-top: -560px;
+    margin-left: 450px;
+}
+ 
+.billede3 {
+position: relative;
+display: flex;
+width: 520px;
+height: 450px;
+margin-left: 920px;
+margin-top: -490px;
+}
+/* .vl2 er vertical line - den grønne linje (se evt. bilag, hvor jeg har sat link til hvordan jeg har lavet det */
+.vl2 {
+  border-left: 8px solid rgb(45, 106, 45);
+  height: 478px;
+  transform: rotate(180deg);
+  margin-top: -467px;
+margin-right: 550px; 
+}
+
+.billede4 {
+position: relative;
+display: flex;
+width: 905px;
+height: 350px;
+margin-left: 0px;
+margin-top: 15px;
+}
+
+.div3 {
+  width: 540px;
+  height: 500px;
+  padding: 17px;
+  border: none;
+  font-size: 18px;
+  margin-top: -400px;
+  margin-left: 900px;
+}
+
+.div4 {
+  font-size: 18px;
+  margin-top: -150px;
+  margin-left: 0px;
+}
+
+/* Footer */
+.vl1 {
+  border-left: 8px solid rgb(129, 107, 80);
+  height: 2910px;
+  transform: rotate(90deg);
+
+  position: absolute; /*  absolut - selvjustere hvor den placeres */
+  margin-top: -1450px;
+
+}
+
+.ootd {
+  height: 300px;
+  width: 700px;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.footertext {
+position: absolute;
+  text-align: end;
+  margin-left: 1000px;
+  margin-top: -300px;
+}

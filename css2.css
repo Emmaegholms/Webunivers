@@ -1,0 +1,230 @@
+.dropbtn {
+  background-color: #817161;
+  color: rgb(0, 0, 0);
+  padding: 10px 16px;
+  font-size: 19px;
+  border: none;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: hidden;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #817161;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:rgb(44, 115, 44);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #f1f1f154;}
+
+.dropdown:hover .dropbtn {color: rgb(44, 115, 44);}
+
+.billede1 {
+  width: 1452px; /* Fast bredde på billedet */
+  height: 150px; /* Fast højde på billedet */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.topnav {
+    background-color: #817161;
+    overflow: hidden;
+    height: 60px;
+    display: flex; 
+    justify-content: center; /* Centrerer vandret */
+    align-items: center; /* Centrerer lodret */
+  }
+
+  
+  /*Styling af navigationsbar*/
+  .topnav a {
+    color: #000000;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 45px;  
+  }
+
+  .topnav {
+    position: sticky; 
+    top: 0;
+    overflow: visible; 
+    z-index: 1000 ;/*Sticky gør at menupunkterne følger med når du scroller */
+    justify-content: center;
+  }
+
+/* Styling af søgebox inde navigationsboxen */
+.topnav input[type=text] {
+  position: relative;
+  float: right;
+  padding: 8px;
+  border: rgb(44, 115, 44);
+  margin-top: 1px;
+  margin-right: 16px;
+  font-size: 17px;
+  color: rgb(29, 116, 29);
+}
+  
+  
+  /* Hover farveændring */
+  .topnav a:hover {
+    background-color: #988976;
+    color: rgb(77, 112, 64);
+  }
+
+  .topnav a.active {
+    background-color: #eeebcb;
+    color: rgb(255, 255, 255);
+  }
+  
+    .container {
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+    
+    }
+
+.Flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 20px;
+    gap: 20px; /* Mellemrum mellem billedet og teksten */
+  }
+
+.text-container1 {
+    max-width: 100px; /* Begrænser bredden af teksten */
+}
+
+
+  .billede2 {
+    width: 800px; 
+    height: 430px; 
+   
+  }
+
+  p {
+    font-size: 17px;
+  }
+/* Ændring i farven og understreget teksten skrevet med h3*/
+    h3 {
+        text-decoration-line: underline;
+        color: rgb(15, 94, 15);
+      }
+        
+      
+.billede3 {
+    width: 630px; 
+    height: 400px; 
+}
+
+.text-container {
+    display:flex; 
+    position: absolute;
+    justify-content: center; 
+    align-items: center;
+    height: 48vh; /* højden på container */
+}
+
+.vertical-text {
+    writing-mode: vertical-rl; /* Gør teksten lodret/vertikal */
+    transform: rotate(0deg); /* Rotereret 0 grader da jeg følte det gjorde teksten mere læsbar end 180 grader */
+    font-size: 30px; /* Skrifttypestørrelse */ 
+    margin-left: 655px;
+    margin-top: 10px;
+}
+
+.billede4 {
+    position: absolute;
+    display: flex;
+    margin-left: -160px;
+    margin-top: -210px;
+    z-index: 999;
+}
+
+.text-container2 {
+    max-width: 550px;
+    margin-left: 65px;
+    margin-top: -80px;
+ 
+}
+
+.text-container3 {
+    margin-top: 50px;
+}
+
+.text-container4 {
+    margin-top: -205px;
+    margin-left: 190px;
+}
+
+.text-container5 {
+    margin-top: -205px;
+    margin-left: 190px;
+}
+
+.text-container6 {
+   max-width: 620px;
+   margin-left: 25px;
+}
+
+.billede6 {
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    margin-top: -553px;
+   margin-left: 630px;
+}
+
+.text-container7 {
+display: flex;
+ position: absolute;
+    max-width: 800px;
+    margin-left: 635px;
+    margin-top: -360px;
+ }
+
+ /* Footer */
+.vl1 {
+  border-left: 8px solid rgb(129, 107, 80);
+  height: 2910px;
+  transform: rotate(90deg);
+
+  position: absolute; /*  absolut - selvjustere hvor den placeres */
+  margin-top: -1450px;
+
+}
+
+.ootd {
+  height: 300px;
+  width: 700px;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.footertext {
+position: absolute;
+  text-align: end;
+  margin-left: 1000px;
+  margin-top: -300px;
+}

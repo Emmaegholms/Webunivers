@@ -1,0 +1,212 @@
+.dropbtn {
+  background-color: #817161;
+  color: rgb(0, 0, 0);
+  padding: 10px 16px;
+  font-size: 19px;
+  border: none;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: hidden;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #817161;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:rgb(44, 115, 44);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #f1f1f154;}
+
+.dropdown:hover .dropbtn {color: rgb(44, 115, 44);}
+
+.billede1 {
+  width: 1452px; /* bredde på billedet */
+  height: 150px; /* højde på billedet */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.topnav {
+    background-color: #817161;
+    overflow: hidden;
+    height: 60px;
+    display: flex; 
+    justify-content: center; /* Centrerer vandret */
+    align-items: center; 
+  }
+
+  
+  /*Styling af navigationsbar*/
+  .topnav a {
+    color: #000000;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 45px;  
+  }
+
+  .topnav {
+    position: sticky; 
+    top: 0;
+    overflow: visible; 
+    z-index: 1000 ;/*Sticky gør at menupunkterne følger med når du scroller */
+    justify-content: center;
+  }
+
+/* Styling af søgebox inde navigationsboxen */
+.topnav input[type=text] {
+  position: relative;
+  float: right;
+  padding: 8px;
+  border: rgb(44, 115, 44);
+  margin-top: 1px;
+  margin-right: 16px;
+  font-size: 17px;
+  color: rgb(29, 116, 29);
+}
+  
+  
+  /* Hover farveændring */
+  .topnav a:hover {
+    background-color: #988976;
+    color: rgb(77, 112, 64);
+  }
+  
+
+  .topnav a.active {
+    background-color: #eeebcb;
+    color: rgb(255, 255, 255);
+  }
+
+  .container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  
+  }
+
+
+  .billede2 {
+    width: 90%;
+    height: 10%;
+   
+  }
+
+  /* margin left 70px fremviser at teksten h1 og h2 bliver rykket tættere ind mod midten
+  for at flugte billedet foroven. */
+  h1 {
+    margin-left: 70px;
+  }
+  
+  h3 {
+    margin-left: 70px;
+  }
+
+  .Flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Justerer billederne */
+    align-items: center; /* Centrerer billederne */
+    position: relative;
+
+  }
+
+  
+  .billede3 {
+    position: relative; /* Gør så det kan blive placeret uden begrænsniger*/
+    width: 750px; 
+    height: 600px; 
+    margin-left: 70px; 
+  }
+  
+  .billede4 {
+    position: relative; 
+    width: 450px; 
+    height: 600px; 
+    margin: 0%; 
+    margin-right: 60px;
+    z-index: 1; /* Placere billeder længere fremme end andet */
+  }
+ 
+  .billede5tegn{
+    position: absolute; /* Absolut positionering for at overlappe */
+    top: 960px; /* for at flytte billede 5 op eller ned */
+    left: 880px; 
+    width: 200px; 
+    height: auto; 
+    z-index: 2; /* Sørger for, at billede 5 vises over billede 4 */
+   
+  }
+
+  .Flex-container2 {
+    display: flex;
+    flex-direction: row; /* sætter tingene vandret i streg */
+  
+    align-items: flex-start; /* Sørger for, at teksten starter fra toppen af hver sektion */
+    gap: 120px; /* Mellemrum mellem de to tekster */
+    padding: 0px; 
+    margin-left: 70px;
+    margin-top: 1px;
+}
+
+.Flex-container2 div:first-child {
+  flex-basis: 74%; /* Den første tekstblok fylder 74% af containerens bredde */
+  text-align: left;
+}
+
+.Flex-container2 div:last-child {
+  flex-basis: 50%; /* Den anden tekstblok fylder 50% af containerens bredde */
+  text-align: left;
+}
+
+.Flex-container2 div h3 {
+  margin: 5px 0;
+  padding: 0; 
+}
+
+/* Footer */
+.vl1 {
+  border-left: 8px solid rgb(129, 107, 80);
+  height: 2910px;
+  transform: rotate(90deg);
+
+  position: absolute; /*  absolut - selvjustere hvor den placeres */
+  margin-top: -1450px;
+
+}
+
+.ootd {
+  height: 300px;
+  width: 700px;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.footertext {
+position: absolute;
+  text-align: end;
+  margin-left: 1000px;
+  margin-top: -300px;
+}
+
+
